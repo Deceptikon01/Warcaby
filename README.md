@@ -1,51 +1,22 @@
-# Wesołe Warcaby
+# Wesole Warcaby
 
-Mini-gra w React oparta o warcaby z animacjami, poziomami trudności i zwierzakami zamiast klasycznych pionków.
+Mini-gra w React z plansza warcabow, animacjami i zwierzakami zamiast klasycznych pionkow.
 
-## Jak uruchomić lokalnie
-
-1. Zainstaluj zależności:
+## Lokalnie
 
 ```bash
 npm install
-```
-
-2. Odpal projekt:
-
-```bash
 npm run dev
 ```
 
-3. Zbuduj wersję produkcyjną:
+## Build pod GitHub Pages
 
 ```bash
-npm run build
+npm run build:pages
 ```
 
-## GitHub Pages
+Statyczna wersja gry trafia do folderu `docs/`, ktory GitHub Pages moze publikowac bez dodatkowego workflow.
 
-Projekt jest przygotowany do publikacji na GitHub Pages:
+## Adres po publikacji
 
-1. W repo na GitHubie wejdź w `Settings > Pages`.
-2. Ustaw źródło publikacji na `GitHub Actions`.
-3. Wypchnij kod na gałąź `main` albo `master`.
-4. Workflow zbuduje `dist` i opublikuje stronę automatycznie.
-
-## Jak wrzucić na GitHuba
-
-1. Utwórz nowe repo na GitHubie.
-2. Podepnij remote:
-
-```bash
-git remote add origin <URL_REPO>
-```
-
-3. Wypchnij zmiany:
-
-```bash
-git add .
-git commit -m "Add Wesołe Warcaby"
-git push -u origin master
-```
-
-Jeśli chcesz, mogę też przygotować wersję bez Tailwind CDN albo dopisać własny adres strony do workflow.
+`https://deceptikon01.github.io/Warcaby/`
